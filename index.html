@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--The <title> tag is the name that shows up in the browser tab-->
+  <title>Clint Tuttle's Webpage</title>
+
+  <!--This line connects our HTML page to a separate CSS file called style.css.
+      CSS controls how the page looks (colors, fonts, spacing).
+      Keeping CSS in its own file is a best practice—it keeps HTML clean.-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!--This is the title at the top of the page-->
+  <h1 class="page-title">Clint Tuttle's Webpage</h1>
+
+  <!--This is the main picture of me-->
+  <p align="center">
+    <img class="main-photo"
+         alt="Clint standing on the Bolivian salt flats with arms raised"
+         src="ClintBolivia.jpg"
+         height="400" />
+  </p>
+
+  <!--This is the About Me paragraph-->
+  <p class="about-me">
+    Hi! I'm Clint Tuttle, and I teach in the IROM department at the McCombs
+    School of Business at UT Austin. My courses focus on data engineering,
+    analytics, and applied AI&mdash;essentially, helping students learn how
+    modern businesses actually use technology to make decisions. Outside the
+    classroom I build software tools (lately a lot of AI-powered apps) and
+    work on real estate technology projects. When I'm not at a keyboard, you
+    can usually find me playing guitar or planning my next trip to somewhere
+    with a strange landscape. Hook 'em!
+  </p>
+
+  <!--A horizontal line to separate sections-->
+  <hr />
+
+  <!--Resume hyperlink-->
+  <p class="resume-line">
+    Click <a href="resume.pdf" target="_blank">here</a> to view my resume.
+  </p>
+
+  <hr />
+
+  <!--Course schedule as a numbered list-->
+  <h3>Fall 2026 Course Schedule</h3>
+  <ol>
+    <li>MIS 325 &mdash; TTH 9:30 &ndash; 11:00 am</li>
+    <li>MIS 325 &mdash; TTH 11:00 am &ndash; 12:30 pm</li>
+    <li>MIS 372 &mdash; TTH 12:30 &ndash; 2:00 pm</li>
+    <li>MIS 372 &mdash; TTH 2:00 &ndash; 3:30 pm</li>
+  </ol>
+
+  <hr />
+
+  <!--Websites and blogs as a bulleted list-->
+  <h3>Websites and Blogs I Like</h3>
+  <ul>
+    <li><a href="https://news.ycombinator.com/" target="_blank">Hacker News</a> &mdash; tech news and discussion</li>
+    <li><a href="https://www.simonwillison.net/" target="_blank">Simon Willison's Weblog</a> &mdash; thoughtful AI and software writing</li>
+    <li><a href="https://stratechery.com/" target="_blank">Stratechery</a> &mdash; tech strategy analysis</li>
+    <li><a href="https://www.mccombs.utexas.edu/" target="_blank">McCombs School of Business</a> &mdash; my home at UT</li>
+  </ul>
+
+  <hr />
+
+  <!--YouTube videos: each one is an iframe.
+      Tip for students: to add your own, go to YouTube > Share > Embed,
+      and copy the FULL iframe tag.-->
+  <h3>Videos I Enjoy</h3>
+
+  <div class="video-grid">
+
+    <iframe width="400" height="225"
+      src="https://www.youtube.com/embed/aircAruvnKk"
+      title="3Blue1Brown - But what is a Neural Network?"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+    <iframe width="400" height="225"
+      src="https://www.youtube.com/embed/zsXP8qeFF6A"
+      title="UT Austin - The Eyes of Texas"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+    <iframe width="400" height="225"
+      src="https://www.youtube.com/embed/jNQXAC9IVRw"
+      title="Me at the zoo - the first YouTube video"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+    <iframe width="400" height="225"
+      src="https://www.youtube.com/embed/4Bt7fLZqs1Y"
+      title="What is HTML? - W3Schools"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+  </div>
+
+  <hr />
+
+  <!--TEACHING MOMENT: This image is NOT actually me.
+      Notice how the alt text and the caption are honest about that.
+      Lesson for class: just because an image appears on a webpage labeled
+      "Clint" doesn't mean it actually IS Clint. Always verify sources,
+      and write honest alt text for accessibility and trust.-->
+  <h3>One More Thing&hellip;</h3>
+  <p align="center">
+    <img class="bonus-photo"
+         alt="A photo that is definitely NOT Clint Tuttle (this is an actor, not me)"
+         src="NotReallyClint.jpg"
+         height="200" />
+  </p>
+  <p class="caption">
+    <em>This is what happens when you Google "Clint" and grab the first
+    handsome guy you see. Lesson: never trust an image just because someone
+    labeled it. Always verify the source!</em>
+  </p>
+
+  <!--A second, smaller photo of me playing guitar-->
+  <p align="center">
+    <img class="secondary-photo"
+         alt="Clint playing acoustic guitar on stage, black and white photo"
+         src="ClintGuitar.jpg"
+         height="250" />
+  </p>
+  <p class="caption">
+    <em>And this one is actually me. Promise.</em>
+  </p>
+
+</body>
+</html>
