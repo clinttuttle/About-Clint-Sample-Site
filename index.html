@@ -15,12 +15,23 @@
   <!--This is the title at the top of the page-->
   <h1 class="page-title">Clint Tuttle's Webpage</h1>
 
-  <!--This is the main picture of me-->
-  <p align="center">
-    <img class="main-photo"
+  <!--Three photos in a horizontal row.
+      The middle one is NOT actually me—see the caption below.
+      Lesson for class: alt text should always be honest about what an image is.-->
+  <div class="photo-row">
+    <img class="row-photo"
          alt="Clint standing on the Bolivian salt flats with arms raised"
-         src="ClintBolivia.jpg"
-         height="400" />
+         src="ClintBolivia.jpg" />
+    <img class="row-photo"
+         alt="A photo that is NOT actually Clint Tuttle (this is an actor, not me)"
+         src="NotReallyClint.jpg" />
+    <img class="row-photo"
+         alt="Clint playing acoustic guitar on stage, black and white photo"
+         src="ClintGuitar.jpg" />
+  </div>
+  <p class="caption">
+    <em>Bolivia salt flats, a guy who is definitely not me, and me playing guitar.
+    Lesson: never trust a photo just because someone labeled it&mdash;always verify the source!</em>
   </p>
 
   <!--This is the About Me paragraph-->
@@ -35,34 +46,25 @@
     with a strange landscape. Hook 'em!
   </p>
 
-  <!--A horizontal line to separate sections-->
   <hr />
 
-  <!--Resume hyperlink-->
-  <p class="resume-line">
-    Click <a href="resume.pdf" target="_blank">here</a> to view my resume.
-  </p>
-
-  <hr />
-
-  <!--Course schedule as a numbered list-->
-  <h3>Fall 2026 Course Schedule</h3>
-  <ol>
-    <li>MIS 325 &mdash; TTH 9:30 &ndash; 11:00 am</li>
-    <li>MIS 325 &mdash; TTH 11:00 am &ndash; 12:30 pm</li>
-    <li>MIS 372 &mdash; TTH 12:30 &ndash; 2:00 pm</li>
-    <li>MIS 372 &mdash; TTH 2:00 &ndash; 3:30 pm</li>
-  </ol>
-
-  <hr />
-
-  <!--Websites and blogs as a bulleted list-->
-  <h3>Websites and Blogs I Like</h3>
+  <!--Work experience as a bulleted list-->
+  <h3>My Work Experience</h3>
   <ul>
-    <li><a href="https://news.ycombinator.com/" target="_blank">Hacker News</a> &mdash; tech news and discussion</li>
-    <li><a href="https://www.simonwillison.net/" target="_blank">Simon Willison's Weblog</a> &mdash; thoughtful AI and software writing</li>
-    <li><a href="https://stratechery.com/" target="_blank">Stratechery</a> &mdash; tech strategy analysis</li>
-    <li><a href="https://www.mccombs.utexas.edu/" target="_blank">McCombs School of Business</a> &mdash; my home at UT</li>
+    <li><strong>McCombs School of Business</strong> &mdash; Lecturer (2011 &ndash; Present)</li>
+    <li><strong>ProximoGen</strong> &mdash; Marketing Consultant (2010 &ndash; 2012)</li>
+    <li><strong>Accenture</strong> &mdash; Manager (2002 &ndash; 2011)</li>
+    <li><strong>McCombs School of Business</strong> &mdash; Academic Peer Advisor (2000 &ndash; 2003)</li>
+  </ul>
+
+  <hr />
+
+  <!--My Favorite Things: a bulleted list of links-->
+  <h3>My Favorite Things</h3>
+  <ul>
+    <li><a href="https://www.nbc.com/the-good-place" target="_blank">The Good Place</a> &mdash; the best comedy ever made about ethics, the afterlife, and being a better person</li>
+    <li><a href="https://claude.com/product/claude-code" target="_blank">Claude Code</a> &mdash; my favorite AI coding tool, used daily for building projects</li>
+    <li><a href="https://www.youtube.com/watch?v=INscMGmhmX4" target="_blank">Golden Retriever Puppies Compilation</a> &mdash; because dogs make everything better</li>
   </ul>
 
   <hr />
@@ -106,34 +108,20 @@
 
   <hr />
 
-  <!--TEACHING MOMENT: This image is NOT actually me.
-      Notice how the alt text and the caption are honest about that.
-      Lesson for class: just because an image appears on a webpage labeled
-      "Clint" doesn't mean it actually IS Clint. Always verify sources,
-      and write honest alt text for accessibility and trust.-->
-  <h3>One More Thing&hellip;</h3>
-  <p align="center">
-    <img class="bonus-photo"
-         alt="A photo that is definitely NOT Clint Tuttle (this is an actor, not me)"
-         src="NotReallyClint.jpg"
-         height="200" />
-  </p>
-  <p class="caption">
-    <em>This is what happens when you Google "Clint" and grab the first
-    handsome guy you see. Lesson: never trust an image just because someone
-    labeled it. Always verify the source!</em>
+  <!--Contact section.
+      The mailto: link opens the user's email program.
+      LinkedIn opens in a new tab.-->
+  <h3>Contact Me</h3>
+  <p class="contact-line">
+    <a href="mailto:clint.tuttle@mccombs.utexas.edu">clint.tuttle@mccombs.utexas.edu</a>
+    &nbsp;|&nbsp;
+    <a href="http://www.linkedin.com/in/clinttuttle" target="_blank">My LinkedIn Profile</a>
   </p>
 
-  <!--A second, smaller photo of me playing guitar-->
-  <p align="center">
-    <img class="secondary-photo"
-         alt="Clint playing acoustic guitar on stage, black and white photo"
-         src="ClintGuitar.jpg"
-         height="250" />
-  </p>
-  <p class="caption">
-    <em>And this one is actually me. Promise.</em>
-  </p>
+  <!--Footer with copyright-->
+  <footer class="page-footer">
+    Copyright &copy; 2026 Clint Tuttle. All Rights Reserved.
+  </footer>
 
 </body>
 </html>
