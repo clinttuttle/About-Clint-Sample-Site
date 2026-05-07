@@ -125,18 +125,17 @@ hr {
 
 /* ---- Video grid: 2 videos per row ---- */
 .video-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
   justify-items: center;
+  text-align:center;
   background-color: #E8DCC4;
-  padding: 20px;
+  padding: 40px;
   border-radius: 8px;
 }
 
 .video-grid iframe {
-  width: 100%;
-  max-width: 400px;
+  width: 75%;
+  justify-items: center;
+  text-align:center;
   border: 3px solid #14213D;
   border-radius: 6px;
   background-color: #14213D;
